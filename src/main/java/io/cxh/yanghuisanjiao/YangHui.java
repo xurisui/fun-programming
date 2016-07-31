@@ -22,7 +22,6 @@ public class YangHui {
         printTriangle(arr);
     }
 
-
     private static int[][] getTriangle(int n) {  //设计杨辉三角
         int[][] yang = new int[n][n];
         for (int i = 0; i < yang.length; i ++) {  //初始化数字为1的杨辉三角
